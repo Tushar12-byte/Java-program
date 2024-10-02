@@ -1,13 +1,18 @@
-package com.genrics;
+package com.hierarchical;
 
 public class Main {
-    public static void main(String[] args) {
-        // Instance of Integer type
-        Test<Integer> iobj = new Test<Integer>(15);
-        System.out.println(iobj.getObject());
 
-        // Instance of String type
-        Test<String> sobj = new Test<String>("Hello");
-        System.out.println(sobj.getObject());
-    }
+	public static void main(String[] args) {
+	
+		 // Create Employee object
+        Employee emp = new Employee("Tejash", 101, "Indore", 50000);
+        System.out.println("Employee Details:");
+        emp.displayEmployeeDetails();
+
+        // Create Student object
+        Student stu = new Student("Ankita", 202, "Vidisha", "MCA");
+        System.out.println("\nStudent Details:");
+        stu.displayStudentDetails();
+	}
+
 }
