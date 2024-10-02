@@ -8,21 +8,21 @@ public class LinkedListExample {
         LinkedList<String> friends = new LinkedList<>();
 
         // Add elements to the LinkedList
-        friends.add("Ankita");
-        friends.add("Ram");
-        friends.add("Siya");
-        friends.add("Riya");
+        friends.add("Ankush");
+        friends.add("Rajesh");
+        friends.add("Sorubh");
+        friends.add("Ravi");
 
         // Display the LinkedList
         System.out.println("Original LinkedList: " + friends);
 
         // Add an element at the first position
-        friends.addFirst("Priya");
-        System.out.println("After adding Priya at the beginning: " + friends);
+        friends.addFirst("Pyush")
+        System.out.println("After adding Pyush at the beginning: " + friends);
 
         // Add an element at the last position
-        friends.addLast("Sneha");
-        System.out.println("After adding Sneha at the end: " + friends);
+        friends.addLast("Sambhav");
+        System.out.println("After adding Sambhav at the end: " + friends);
 
         // Remove an element by index
         friends.remove(2); // Removes the element at index 2
@@ -33,10 +33,10 @@ public class LinkedListExample {
         System.out.println("Last element: " + friends.getLast());
 
         // Check if a specific element exists
-        if (friends.contains("Ankita")) {
-            System.out.println("Ankita is in the list.");
+        if (friends.contains("Ankush")) {
+            System.out.println("Ankush is in the list.");
         } else {
-            System.out.println("Ankita is not in the list.");
+            System.out.println("Ankush is not in the list.");
         }
 
         // Iterate through the LinkedList using a for-each loop
