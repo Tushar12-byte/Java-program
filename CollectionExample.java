@@ -9,16 +9,16 @@ public class CollectionExample {
         Collection<String> names = new ArrayList<>();
 
         // Add elements to the collection
-        names.add("Ankita");
+        names.add("Tejash");
         names.add("Ram");
-        names.add("Siya");
+        names.add("Mohit");
         
         // Display the elements
         System.out.println("Collection Elements: " + names);
 
         // Check if an element exists
-        if (names.contains("Ankita")) {
-            System.out.println("Ankita is present in the collection.");
+        if (names.contains("Tejash")) {
+            System.out.println("Tejash is present in the collection.");
         }
 
         // Remove an element
