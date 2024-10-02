@@ -8,10 +8,10 @@ public class IteratorExample {
         ArrayList<String> names = new ArrayList<>();
 
         // Add elements to the ArrayList
-        names.add("Ankita");
-        names.add("Monika");
-        names.add("Riya");
-        names.add("Siya");
+        names.add("Tejash");
+        names.add("Sourabh");
+        names.add("Raj");
+        names.add("Shubham");
 
         // Get the iterator
         Iterator<String> iterator = names.iterator();
