@@ -10,7 +10,7 @@ public class Main {
         emp.displayEmployeeDetails();
 
         // Create Student object
-        Student stu = new Student("Ankita", 202, "Vidisha", "MCA");
+        Student stu = new Student("Mohit", 202, "Vidisha", "MCA");
         System.out.println("\nStudent Details:");
         stu.displayStudentDetails();
 	}
